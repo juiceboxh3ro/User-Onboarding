@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#onboard-form {
+  margin-top: 100px;
+}
+
+form {
+  width: 400px;
+  margin: 50px auto;
+  padding-top: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+label, input {
+  font-size: 1rem;
+}
+
+input {
+  margin-bottom: 30px;
+  border: 0;
+  border-bottom: 1px solid black;
+  line-height: 1.7;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  color: white;
+  background: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+#user-deck {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+#user-card {
+  border: solid 1px black;
+  border-radius: 3px;
+  padding: 20px 0;
+  transition: 0.3s ease;
+  margin: 0;
+}
+
+#user-card li {
+  list-style: none;
+  text-align: center;
+}
+
+#user-card li:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+#user-card li:last-child {
+  font-size: 1rem;
+}
+
+#user-card:hover {
+  background-color: #d5d5d5;
+}
